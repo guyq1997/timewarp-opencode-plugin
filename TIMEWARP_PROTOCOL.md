@@ -1,5 +1,7 @@
 # Timewarp: 时光穿梭式自优化协议（Agent + Plugin）
 
+English version: `TIMEWARP_PROTOCOL.en.md`
+
 这份文档定义一个面向 Agent 的“先记录摩擦点、后统一优化”的闭环流程：
 
 - 正常执行用户任务时，不强行打断做优化

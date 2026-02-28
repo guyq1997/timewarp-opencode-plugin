@@ -2,6 +2,12 @@
 
 Timewarp is a local OpenCode plugin for snapshot travel and issue-driven optimization loops.
 
+中文说明请看：`README.zh-CN.md`
+
+Protocol docs:
+- Chinese: `TIMEWARP_PROTOCOL.md`
+- English: `TIMEWARP_PROTOCOL.en.md`
+
 ## Included toolset
 
 - `timewarp_travel`
