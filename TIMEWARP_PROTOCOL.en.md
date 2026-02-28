@@ -1,6 +1,6 @@
 # Timewarp: Time-Travel Self-Optimization Protocol (Agent + Plugin)
 
-Chinese version: `TIMEWARP_PROTOCOL.md`
+Chinese version: [TIMEWARP_PROTOCOL.md](./TIMEWARP_PROTOCOL.md)
 
 This document defines a closed-loop workflow for agents: **record friction first, optimize later**.
 

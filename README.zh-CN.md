@@ -1,8 +1,22 @@
 # Timewarp OpenCode 插件
 
+**语言:** [English](./README.md) | 中文
+
 Timewarp 是一个本地 OpenCode 插件，用于快照穿越和基于 issue 的优化循环。
 
-文档入口：
+## 这个 protocol 在讲什么
+
+Timewarp protocol 讲的是一套 Agent 自我优化流程：
+
+1. 先完成用户主线任务。
+2. 把摩擦点结构化记录为 issue（`issue_report`）。
+3. 穿越到历史快照做隔离实验（`timewarp_travel`）。
+4. 验证方案有效后回到现在（`timewarp_return`）。
+5. 在现实工作区复现修复并收敛。
+
+这样可以持续优化 Agent，又不打断用户当前任务。
+
+## 文档入口
 
 - 英文 README：[`README.md`](./README.md)
 - 协议（中文）：[`TIMEWARP_PROTOCOL.md`](./TIMEWARP_PROTOCOL.md)
@@ -15,6 +29,12 @@ Timewarp 是一个本地 OpenCode 插件，用于快照穿越和基于 issue 的
 - `timewarp_issue_list(status?)`（默认 `open`，传 `all` 返回全部）
 - `timewarp_issue_get(issue_id)`
 - `issue_report(...)`（返回 `ok`）
+
+## 快速开始
+
+1. 安装插件。
+2. 重启 OpenCode。
+3. 让 Agent 在调用任何 timewarp 工具前先读协议。
 
 ## 安装
 
